@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormControl, InputGroup, Nav } from 'react-bootstrap';
+import { FormControl, InputGroup, Nav, Button } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
@@ -43,7 +43,7 @@ const Footer = () => {
                     <p>Subscribe to get the latest news, update and offer information. Don't worry, we won't send spam!</p>
                     <InputGroup>
                         <FormControl id="inlineFormInputGroupUsername" placeholder="name@email.com" />
-                        <InputGroup.Text>Subscribe</InputGroup.Text>
+                        <Button className='bg-success'>Subscribe</Button>
                     </InputGroup>
                 </div>
             </div>
