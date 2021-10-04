@@ -10,27 +10,29 @@ const Header = () => {
     const navbar = {
         padding: '0 5px',
         textDecoration: 'none',
-        color:'white'
+        color: 'white'
     }
 
     return (
-        <div className='sticky-top pb-2 ' style={{ backgroundColor: '#2C3E50',}}>
-            <h1 className="text-center mb-2 fw-bold  text-light">National Institute Of Technology</h1>
-            <div className="text-center">
+        <div className=' pb-2 ' style={{ backgroundColor: '#2C3E50' }}>
+            <div>
+                <h1 className="text-center mb-2 fw-bold  text-light">National Institute Of Technology</h1>
             </div>
-            <Navbar>
-                <Container>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav " className="justify-content-center">
-                        <Nav>
-                            <NavLink activeStyle={activeactiveStyle} style={navbar} to="/Home">Home</NavLink>
-                            <NavLink activeStyle={activeactiveStyle} style={navbar} to="/AllServices">Services</NavLink>
-                            <NavLink activeStyle={activeactiveStyle} style={navbar} to="/AboutUs">About us</NavLink>
-                            <NavLink activeStyle={activeactiveStyle} style={navbar} to="/Conatct">Conatct</NavLink>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
+            <div className="text-center">
+                <Navbar>
+                    <Container>
+                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                        <Navbar.Collapse id="basic-navbar-nav " className="justify-content-center">
+                            <Nav>
+                                <NavLink activeStyle={activeactiveStyle} style={navbar} to="/Home">Home</NavLink>
+                                <NavLink activeStyle={activeactiveStyle} style={navbar} to="/AllServices">Services</NavLink>
+                                <NavLink activeStyle={activeactiveStyle} style={navbar} to="/AboutUs">About us</NavLink>
+                                <NavLink activeStyle={activeactiveStyle} style={navbar} to="/Conatct">Conatct</NavLink>
+                            </Nav>
+                        </Navbar.Collapse>
+                    </Container>
+                </Navbar>
+            </div>
         </div>
     );
 };
