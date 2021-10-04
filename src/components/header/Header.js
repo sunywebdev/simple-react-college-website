@@ -5,12 +5,14 @@ import { NavLink } from 'react-router-dom';
 const Header = () => {
     const activeactiveStyle = {
         fontWeight: "bold",
-        color: "red"
+        borderRadius: '11px',
+        color: 'white',
+        backgroundColor: '#1ABC9C'
     }
     const navbar = {
-        padding: '0 5px',
         textDecoration: 'none',
-        color: 'white'
+        color: 'white',
+        padding: '7px 21px',
     }
 
     return (
@@ -24,7 +26,7 @@ const Header = () => {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav " className="justify-content-center">
                             <Nav>
-                                <NavLink activeStyle={activeactiveStyle} style={navbar} to="/Home">Home</NavLink>
+                                <NavLink activeStyle={activeactiveStyle} style={navbar} exact to="/">Home</NavLink>
                                 <NavLink activeStyle={activeactiveStyle} style={navbar} to="/AllServices">Services</NavLink>
                                 <NavLink activeStyle={activeactiveStyle} style={navbar} to="/AboutUs">About us</NavLink>
                                 <NavLink activeStyle={activeactiveStyle} style={navbar} to="/Conatct">Conatct</NavLink>

@@ -14,11 +14,16 @@ const Services = () => {
         textDecoration: 'none',
         color: 'white'
     }
+    const button = {
+        backgroundColor: '#2C3E50',
+        color: 'white',
+        border: '0'
+    }
     const [data] = LoadData()
 
 
     return (
-        <div className='container mt-5'>
+        <div className='container mt-5' style={{ color: '#2C3E50' }}>
             <h1 className='my-5 fw-bold text-center'>Popular Services</h1>
             <Row xs={1} md={4} className="g-4">
                 {data.slice(0, 4).map(department => (
@@ -35,13 +40,13 @@ const Services = () => {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer class="p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><Button class="mt-auto">View options</Button></div>
+                                <div class="text-center"><Button style={button} class="mt-auto">View options</Button></div>
                             </Card.Footer>
                         </Card>
                     </Col>
                 ))}
             </Row>
-            <Button variant="primary" size="md" className='fw-bold mt-4'>
+            <Button variant="primary" size="md" className='fw-bold mt-4' style={button}>
                 <NavLink activeStyle={activeactiveStyle} style={navbar} to="/AllServices">
                     View More  <i class="ms-2 fas fa-arrow-right"></i>
                 </NavLink>

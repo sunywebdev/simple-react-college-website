@@ -2,9 +2,25 @@ import React from 'react';
 
 const AboutUs = () => {
     return (
-        <div className='container my-5'>
+        <div className='container my-5' style={{ color: '#2C3E50' }}>
             <h1 className='my-5 fw-bold text-center'>About Us</h1>
-            <p className='col-10 mx-auto'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, magni dolorem! Nemo, natus nesciunt architecto cumque dolorem soluta, tempore omnis libero laudantium deleniti eveniet, ratione officiis quae saepe? Tempore cupiditate non, saepe voluptatem hic iure fugiat corrupti natus voluptatum eius delectus quas impedit ut reprehenderit maxime dolor fuga mollitia voluptatibus similique sed illum vel, aut ex! Temporibus, asperiores quis incidunt natus vel quasi recusandae repellat aut eos rerum, atque quidem tenetur unde architecto expedita, quas porro. Fugit sequi quas atque quod explicabo reprehenderit temporibus, possimus ut officia alias, veritatis aliquam fuga perferendis et similique? Repellat officia qui rem aperiam harum nisi perferendis sequi nihil cumque doloribus non repudiandae dolore, assumenda sapiente, quod saepe illum ea, distinctio magni! Autem magni aliquid perspiciatis, a minus ullam laudantium similique sunt officia rem, magnam minima sapiente, voluptates nobis quia adipisci in. Autem reiciendis quae dolor, labore, explicabo nemo dolores facilis, fugiat ratione numquam obcaecati accusantium dolore minima. In nemo accusamus ipsa harum enim delectus adipisci veniam dolorem eius id. Quasi minima sint praesentium odio aliquam aspernatur fuga minus libero, eaque quae quaerat commodi quis quam similique porro nesciunt? Numquam soluta natus commodi nulla repellat quo voluptate laboriosam fugiat, magnam consectetur illum eos tempore aperiam consequatur adipisci. Eligendi impedit unde pariatur expedita libero officiis error culpa magnam at, delectus illo soluta tempore esse maxime ipsum totam. Blanditiis tempore, corrupti necessitatibus sed atque ullam numquam fugiat? Suscipit quo quibusdam veniam reprehenderit dolore quaerat sed sequi, eius beatae. Ut autem quaerat nihil saepe nobis hic deserunt aspernatur! Enim sapiente aut ducimus tenetur voluptatem sed cupiditate quia nam fugit fuga consequatur velit quaerat, totam dolore veniam accusamus quasi ullam in at incidunt numquam obcaecati error vitae. Est dolorem recusandae nulla esse amet error sit illum, mollitia qui debitis explicabo quae aliquam enim tenetur corrupti eos non! Ratione consequatur necessitatibus nemo minima sed nulla fuga aut impedit animi, corrupti architecto! Provident aperiam temporibus delectus corrupti totam ab aliquid, deleniti natus quam aliquam eveniet dolorum eius at fugiat iste optio eos quia earum ea ipsam expedita facere eaque cupiditate? A iure rem non similique recusandae expedita blanditiis temporibus doloribus obcaecati vel! Illum eius, pariatur dignissimos ullam officiis iure doloremque fugit. Numquam dolor saepe rem eos, minima quis doloribus libero aut, cumque at placeat necessitatibus corrupti sequi. Quos ad ab quae laboriosam fugit eos, aliquid quia maiores cumque est dolor ducimus totam dolorum natus earum incidunt id autem nesciunt nemo illum! Fugit aperiam, animi autem enim earum consequatur vero nihil illum harum, deleniti odio qui praesentium, asperiores hic architecto ut sapiente expedita eos quo. Ratione possimus sed aliquid excepturi ipsum in optio corporis, error cumque quod veniam fugiat fuga sint earum quos quidem eius repellendus ut! Commodi deleniti praesentium suscipit et eos! Eum, voluptatibus est. Dolorem accusantium modi nisi recusandae qui magnam iste a cumque iusto deserunt consequuntur delectus omnis praesentium quidem reprehenderit dolore magni molestias odit quo blanditiis, inventore ullam. Amet praesentium dolor fugiat obcaecati rerum illo optio eos, ea hic! Quod, voluptate error vitae earum officia labore maxime molestiae.</p>
+            <div className='col-10 mx-auto'>
+                <h6>The first Private Polytechnic Institute of Chittagong, established in 1999 by some honorable persons who dedicate their life's to spread the lights of education. To develop a modern country there is no alternate of Technical Education. NIT takes the necessary steps to spread the knowledge of technical education in Bangladesh. As a Pioneer of Private Poly-Technic Institute, NIT always takes the step to stay ahead of the bunch. Here at NIT we apply the modern teaching styles, for effective studies.</h6>
+
+                <h3 className='py-3'>Our Specialties:</h3>
+                <ul>
+                    <li>Easiest means of transport</li>
+                    <li>We have well qualified dynamic and professional teachers panel</li>
+                    <li> 24 hours Generator support</li>
+                    <li> Well furnished and rich library support</li>
+                    <li> Electrical, Electronics, Computer, Physics and Chemistry Lab with modern equipment facilities</li>
+                    <li>Internet Facilities</li>
+                    <li>Special care to the weakest students</li>
+                    <li> Scholarship facilities</li>
+                    <li> Study tours, sports and cultural programs</li>
+                    <li> Installment payment system for tuition fee</li>
+                </ul>
+            </div>
         </div>
     );
 };
