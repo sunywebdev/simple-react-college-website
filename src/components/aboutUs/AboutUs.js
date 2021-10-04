@@ -3,7 +3,7 @@ import React from 'react';
 const AboutUs = () => {
     return (
         <div className='container my-5' style={{ color: '#2C3E50' }}>
-            <h1 className='my-5 fw-bold text-center'>About Us</h1>
+            <h1 className='my-5 fw-bold text-center  display-3   text-uppercase'>About Us</h1>
             <div className='col-10 mx-auto'>
                 <h6>The first Private Polytechnic Institute of Chittagong, established in 1999 by some honorable persons who dedicate their life's to spread the lights of education. To develop a modern country there is no alternate of Technical Education. NIT takes the necessary steps to spread the knowledge of technical education in Bangladesh. As a Pioneer of Private Poly-Technic Institute, NIT always takes the step to stay ahead of the bunch. Here at NIT we apply the modern teaching styles, for effective studies.</h6>
 

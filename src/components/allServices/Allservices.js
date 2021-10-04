@@ -14,7 +14,7 @@ const Allservices = () => {
 
     return (
         <div className='container my-5'>
-            <h1 className='my-5 fw-bold text-center' style={{ color: '#2C3E50' }}>Services</h1>
+            <h1 className='my-5 fw-bold text-center  display-3   text-uppercase' style={{ color: '#2C3E50' }}>Services</h1>
             {data.length === 0 ?
                 <div className="py-5 text-center">
                     <Spinner animation="border" className='loading mx-2' />

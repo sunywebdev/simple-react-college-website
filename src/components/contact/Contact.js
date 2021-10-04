@@ -9,7 +9,7 @@ const Contact = () => {
     }
     return (
         <div className='container my-5' style={{ color: '#2C3E50' }}>
-            <h1 className='my-5 fw-bold text-center'>Contact Us</h1>
+            <h1 className='my-5 fw-bold text-center display-3   text-uppercase'>Contact Us</h1>
             <Form>
                 <div className="row">
                     <div className="col-md-6">
