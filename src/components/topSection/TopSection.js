@@ -1,7 +1,6 @@
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 import './TopSection.css'
-import img from './1.png'
 
 const TopSection = () => {
 
