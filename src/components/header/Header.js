@@ -12,7 +12,7 @@ const Header = () => {
     const navbar = {
         textDecoration: 'none',
         color: 'white',
-        padding: '7px 21px',
+        padding: '7px 14px',
     }
 
     return (
