@@ -6,7 +6,7 @@ import { Button, InputGroup, FormControl } from 'react-bootstrap';
 const Footer = () => {
     const activeactiveStyle = {
         fontWeight: "bold",
-        color: "red"
+        color: "#1ABC9C"
     }
     const navbar = {
         padding: ' 5px 0',
