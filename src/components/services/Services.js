@@ -24,7 +24,7 @@ const Services = () => {
 
     return (
         <div className='container mt-5' style={{ color: '#2C3E50' }}>
-            <h1 className='my-5 fw-bold text-center'>Popular Services</h1>
+            <h1 className='my-4 fw-bold text-center  display-5 text-uppercase'>Popular Services</h1>
             <Row xs={1} md={4} className="g-4">
                 {data.slice(0, 4).map(department => (
                     <Col>
