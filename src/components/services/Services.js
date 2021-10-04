@@ -34,8 +34,9 @@ const Services = () => {
                                     <div><i class="far fa-clock"></i> Duration: {department.duration}</div>
                                 </Card.Text>
                             </Card.Body>
-
-                            <Button className='w-100 '>Apply Now</Button>
+                            <Card.Footer class="p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><Button class="mt-auto">View options</Button></div>
+                            </Card.Footer>
                         </Card>
                     </Col>
                 ))}

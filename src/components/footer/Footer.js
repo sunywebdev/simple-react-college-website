@@ -1,5 +1,4 @@
 import React from 'react';
-import { FormControl, InputGroup, Nav, Button } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
@@ -13,41 +12,41 @@ const Footer = () => {
         color: 'white'
     }
     return (
-        <div className="container mx-auto">
-            <div className='row bg-primary mt-5 g-5'>
-                <div className='col-md-3 text-center'>
-                    <img src="https://demo.web3canvas.com/themeforest/unisco/images/footer-logo.png" alt="" className='w-50' />
-                    <h5>2021 © copyright<br />
-                        All rights reserved.</h5>
-                </div>
-                <div className='col-md-3'>
-                    <h4>Quick Links</h4>
-                    <Nav className="flex-column ">
-                        <NavLink activeStyle={activeactiveStyle} style={navbar} to="/Home">Home</NavLink>
-
-                        <NavLink activeStyle={activeactiveStyle} style={navbar} to="/AllServices">Services</NavLink>
-
-                        <NavLink activeStyle={activeactiveStyle} style={navbar} to="/AboutUs">About us</NavLink>
-
-                        <NavLink activeStyle={activeactiveStyle} style={navbar} to="/Conatct">Conatct</NavLink>
-                    </Nav>
-                </div>
-                <div className='col-md-3 ps-0 ps-sm-3'>
-                    <h4>Contact Us</h4>
-                    Address: Unisco university Albany, NY, USA. 11001
-                    Email : info@unisco.com
-                    Phone : +91 555 668 986
-                </div>
-                <div className='col-md-3'>
-                    <h4>Subscribe</h4>
-                    <p>Subscribe to get the latest news, update and offer information. Don't worry, we won't send spam!</p>
-                    <InputGroup>
-                        <FormControl id="inlineFormInputGroupUsername" placeholder="name@email.com" />
-                        <Button className='bg-success'>Subscribe</Button>
-                    </InputGroup>
+        <footer class="text-center mt-5">
+            <div class="container-fluid py-3" style={{ backgroundColor: '#2C3E50' }}>
+                <div class="row  text-light">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            2215 John Daniel Drive
+                            <br />
+                            Clark, MO 65243
+                        </p>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0  text-light">
+                        <h4 class="text-uppercase mb-4">Usefull Links</h4>
+                        <NavLink activeStyle={activeactiveStyle} style={navbar} to="/Home">Home</NavLink> <br />
+                        <NavLink activeStyle={activeactiveStyle} style={navbar} to="/AllServices">Services</NavLink> <br />
+                        <NavLink activeStyle={activeactiveStyle} style={navbar} to="/AboutUs">About us</NavLink> <br />
+                        <NavLink activeStyle={activeactiveStyle} style={navbar} to="/Conatct">Conatct</NavLink> <br />
+                    </div>
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                        <p class="lead mb-0">
+                            Freelance is a free to use, MIT licensed Bootstrap theme created by
+                            <a href="http://startbootstrap.com">Start Bootstrap</a>
+                            .
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
+            <div class="copyright py-4 text-center text-light" style={{ backgroundColor: '#1A252F' }}>
+                <div class="container"><small>Copyright &copy; Shoyeb Mohammed Suny 2021</small></div>
+            </div>
+        </footer>
+
+
+
     );
 };
 

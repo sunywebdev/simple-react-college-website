@@ -1,28 +1,29 @@
 import React from 'react';
-import { Card, Button } from 'react-bootstrap';
 import './TopSection.css'
+import { Button } from 'react-bootstrap';
+import image from './1.jpg'
 
 const TopSection = () => {
 
     return (
-        <div className='container'>
-            <div className= 'top py-5 row justify-content-start ms-5 px-md-5' >
-                <Card
-                    className="col col-md-6 mb-2"
-                >
-                    <Card.Body>
-                        <div className='fs-3 fw-bold bg-light py-2'>Admission Open!</div>
-                        <Card.Title> December 20th, 2021 </Card.Title>
-                        <Card.Text>
-                            We start to receive regestration in our Institute from december 20th 2021 to January 30th 2022
-                        </Card.Text>
-                    </Card.Body>
-                    <div className="me-3 ms-3">
-                        <Button className='me-3 px-3 py-1 mb-3'>Apply Now  <i class="ms-2 fas fa-arrow-right"></i></Button>
+            <div className="container px-4 px-lg-5 mt-4">
+                <div className="row gx-4 gx-lg-5 align-items-center">
+                    <div className="col-md-6">
+                        <img className="card-img-top mb-5 mb-md-0" src={image} alt="..." />
                     </div>
-                </Card>
+                    <div className="col-md-6">
+                        <h1 className="display-5 fw-bolder">National Institute Of Technology</h1>
+                        <h3>Muradpur, Chittagong</h3>
+                        <p className="lead">The first Private Polytechnic Institute of Chittagong, established in 1999 by some honorable persons who dedicate their life's to spread the lights of education. To develop a modern country there is no alternate of Technical Education. </p>
+                        <div className="d-flex">
+                            <Button className="btn btn-outline-dark flex-shrink-0" type="button">
+                                <i className="bi-cart-fill me-1"></i>
+                                Get Admitted
+                            </Button>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
     );
 };
 
