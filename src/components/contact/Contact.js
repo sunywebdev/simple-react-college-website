@@ -4,7 +4,7 @@ import { Button, FloatingLabel, Form } from 'react-bootstrap';
 const Contact = () => {
     return (
         <div className='container my-5'>
-            <h1 className='my-4 fw-bold text-center'>Contact Us</h1>
+            <h1 className='my-5 fw-bold text-center'>Contact Us</h1>
             <Form>
                 <div className="row">
                     <div className="col-md-6">

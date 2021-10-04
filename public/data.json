@@ -1,0 +1,50 @@
+[
+    {
+        "photo": "./tech-photo/computer.jpg",
+        "dept": "Computer",
+        "fee": 12000,
+        "duration": "4 Years"
+    },
+    {
+        "photo": "./tech-photo/electronics.jpg",
+        "dept": "Electronics ",
+        "fee": 12000,
+        "duration": "4 Years"
+    },
+    {
+        "photo": "./tech-photo/architecture.jpg",
+        "dept": "Architecture ",
+        "fee": 12000,
+        "duration": "4 Years"
+    },
+    {
+        "photo": "./tech-photo/mechanical.jpg",
+        "dept": "Mechanical  ",
+        "fee": 12000,
+        "duration": "4 Years"
+    },
+    {
+        "photo": "./tech-photo/Automobile.jpg",
+        "dept": "Automobile ",
+        "fee": 12000,
+        "duration": "4 Years"
+    },
+    {
+        "photo": "./tech-photo/Electrical.jpg",
+        "dept": "Electrical ",
+        "fee": 12000,
+        "duration": "4 Years"
+    },
+    {
+        "photo": "./tech-photo/Textile.jpg",
+        "dept": "Textile ",
+        "fee": 12000,
+        "duration": "4 Years"
+    },
+    {
+        "photo": "./tech-photo/Civil.jpg",
+        "dept": "Civil ",
+        "fee": 12000,
+        "duration": "4 Years"
+    }
+]

@@ -1,11 +1,11 @@
 import React from 'react';
 import Services from '../services/Services';
-import TopSlider from '../topSlider/TopSlider';
+import TopSection from '../topSection/TopSection';
 
 const Home = () => {
     return (
-        <div>
-            <TopSlider></TopSlider>
+        <div className='conatiner-flex overflow-hidden'>
+            <TopSection></TopSection>
             <Services></Services>
         </div>
     );

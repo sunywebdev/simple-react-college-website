@@ -12,7 +12,7 @@ const Header = () => {
     }
 
     return (
-        <div className='sticky-top bg-light'>
+        <div className='sticky-top bg-light pb-2'>
             <h1 className="text-center mb-2 fw-bold text-primary">XYZ College</h1>
             <div className="text-center">
 

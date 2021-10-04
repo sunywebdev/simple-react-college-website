@@ -1,26 +1,51 @@
 import React from 'react';
-import { Card, Col, Row } from 'react-bootstrap';
+import { Card, Col, Row, Button } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+import LoadData from '../loadData/LoadData';
 import './Services.css'
 
 const Services = () => {
+    const activeactiveStyle = {
+        fontWeight: "bold",
+        color: "red"
+    }
+    const navbar = {
+        padding: ' 5px 0',
+        textDecoration: 'none',
+        color: 'white'
+    }
+    const [data] = LoadData()
+
+
     return (
-        <div className='container my-5'>
-            <h1 className='my-4 fw-bold text-center'>Services</h1>
-            <Row xs={2} md={4} className="g-4">
-                {Array.from({ length: 4 }).map((_, idx) => (
+        <div className='container mt-5'>
+            <h1 className='my-5 fw-bold text-center'>Popular Services</h1>
+            <Row xs={1} md={4} className="g-4">
+                {data.slice(0, 4).map(department => (
                     <Col>
-                        <Card className='card'>
-                            <Card.Img className='img' variant="top" src="https://scontent.fcgp7-1.fna.fbcdn.net/v/t1.6435-9/108280695_185762499635208_829379171781371104_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=b9115d&_nc_ohc=_78whioxSp4AX85VPYS&_nc_ht=scontent.fcgp7-1.fna&oh=0d105df2da5e66e0e736faf514f88535&oe=617F4744" />
-                            <Card.ImgOverlay className=' d-flex flex-column justify-content-end text-light'>
-                                    <Card.Title>Compute Department</Card.Title>
-                                    <Card.Text>
-                                        12000 Tk / Semester
-                                    </Card.Text>
-                            </Card.ImgOverlay>
+                        <Card>
+                            <div className="card-img">
+                                <Card.Img className='img' variant="top" src={department.photo} />
+                            </div>
+                            <Card.Body>
+                                <Card.Title className='text-center'>{department.dept} Technology</Card.Title>
+                                <Card.Text >
+                                    <div><i class="fas fa-dollar-sign"></i> {department.fee} Tk/Semester</div>
+                                    <div><i class="far fa-clock"></i> Duration: {department.duration}</div>
+                                </Card.Text>
+                            </Card.Body>
+
+                            <Button className='w-100 '>Apply Now</Button>
                         </Card>
                     </Col>
                 ))}
             </Row>
+            <Button variant="primary" size="md" className='fw-bold mt-4'>
+                <NavLink activeStyle={activeactiveStyle} style={navbar} to="/AllServices">
+                    View More  <i class="ms-2 fas fa-arrow-right"></i>
+                </NavLink>
+
+            </Button>
         </div>
     );
 };
