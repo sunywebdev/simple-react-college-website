@@ -1,7 +1,7 @@
 <h1>College website project</h1>
 
 This site is hosted live <a href='https://educational-services.netlify.app/'> Here</a></br>
-<small>This made for Programming Hero Web Development Course Assignment</small>
+<small>This site made for Programming Hero Web Development Course Assignment</small>
 
 Features :-
 <ul>
